@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from "react";
+import React from "react";
 import { Input } from "./Input";
 import { Button } from "./Button";
 import { Post } from "../Flows/Feeds";
@@ -65,7 +65,7 @@ export const PostCreator: React.FC<PostCreatorProps> = ({
       )}
       {readOnly && (
         <div className="flex mt-4">
-          <img src="/svgs/chat.svg" width={20} height={20} />
+          <img src="/svgs/chat.svg" width={20} height={20} alt="comments" />
           <span className="text-[#7F8084] text-sm px-2">
             {" "}
             {content?.comments} comments
