@@ -2,13 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .App {
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   font-family: Inter;
-  display: flex;
   background-color: #141218;
   min-height: 100vh;
   color : #fff;
+}
+
+.feeds {
+  font-family: Inter;
+  background-color: #141218;
+  min-height: 100vh;
+  color : #fff;
+  text-align: center;
 }

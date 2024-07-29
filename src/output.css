@@ -610,21 +610,17 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
-.border {
-  border-width: 1px;
+.border-\[1\.5px\] {
+  border-width: 1.5px;
 }
 
-.border-secondaryGray {
+.border-\[\#7F8084\] {
   --tw-border-opacity: 1;
-  border-color: rgb(106 107 107 / var(--tw-border-opacity));
+  border-color: rgb(127 128 132 / var(--tw-border-opacity));
 }
 
 .bg-\[\#26292c\] {

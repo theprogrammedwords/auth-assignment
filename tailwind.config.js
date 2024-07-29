@@ -9,13 +9,14 @@ module.exports = {
         borderGrayLight: "#969696",
         borderGrayDark: "#343434",
       },
+      borderWidth: {
+        1.5: "1.5px",
+      },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
       },
     },
   },
-  variants: {
-    extend: {},
-  },
+  variants: {},
   plugins: [],
 };
