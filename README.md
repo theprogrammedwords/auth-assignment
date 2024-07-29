@@ -63,24 +63,7 @@ Follow the installation steps to set up the project locally. You can explore the
 
 ## Project Structure
 
-atlys-frontend-task/
-├── public/
-├── src/
-│ ├── assets/
-│ ├── components/
-│ ├─────────────/Button.tsx
-│ ├─────────────/Input.tsx
-│ ├─────────────/BoxComponent.tsx
-│ ├── Flows/
-| |________/Onboarding.tsx
-| |________/Feeds.tsx
-│ ├── App.tsx
-│ └── index.tsx
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-├── tsconfig.json
-└── README.md
+![Screenshot 2024-07-29 at 5 14 11 PM](https://github.com/user-attachments/assets/b0eb5b4d-e835-4d60-8d57-e9fcceab61d3)
 
 
 - **public/**: Contains static files.
