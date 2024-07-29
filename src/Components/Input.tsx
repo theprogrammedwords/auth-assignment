@@ -77,13 +77,16 @@ export const Input: React.FC<InputProps> = ({
         )}
         {type === "content" && (
           <div className="absolute inset-y-0 left-2 flex items-center text-[#7F8084] ">
-            {
-              <div className="p-4 bg-[#26292c] rounded-[24px] text-[18px]">
+            {isVisible && (
+              <div className="p-2 bg-[#26292c] rounded-[24px] text-[18px]">
                 {readOnly ? adornment : "💬"}
               </div>
-            }
+            )}
             {isVisible && (
-              <span onClick={toggleSpanVisibility} className="px-4">
+              <span
+                onClick={!readOnly ? toggleSpanVisibility : () => {}}
+                className="px-4"
+              >
                 {readOnly ? value : "How are you feeling today ?"}
               </span>
             )}
