@@ -46,7 +46,7 @@ export const Feeds = () => {
           How are you doing today? Would you like to share something with the
           community 🤗
         </div>
-        <div className="py-8">
+        <div className="pt-8">
           <PostCreator />
         </div>
         {POSTS.map((post, index) => (
