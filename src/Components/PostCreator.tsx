@@ -29,7 +29,7 @@ export const PostCreator: React.FC<PostCreatorProps> = ({
                 {content.name}
               </div>
               <div className="text-[12px] font-normal text-[#7D7F81] leading-[20px]">
-                {content.time}
+                {content.time} {content?.isEdited ? " • Edited" : ""}
               </div>
             </div>
           </div>
@@ -48,12 +48,7 @@ export const PostCreator: React.FC<PostCreatorProps> = ({
       />
       {!readOnly ? (
         <div className="pt-[20px] flex justify-end">
-          <Button
-            label="Post"
-            handleClick={function (): void {
-              throw new Error("Function not implemented.");
-            }}
-          />
+          <Button label="Post" handleClick={() => alert("Not implemented")} />
         </div>
       ) : (
         <div className="flex mt-4">
